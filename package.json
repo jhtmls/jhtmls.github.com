@@ -1,0 +1,35 @@
+{
+  "name": "jhtmls-com",
+  "title": "http://jhtmls.com",
+  "description": "jhtmls site",
+  "version": "0.0.1",
+  "homepage": "http://jhtmls.com/",
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhtmls/jhtmls.github.com.git"
+  },
+  "keywords": [
+    "template",
+    "javascript",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/jhtmls/jhtmls.github.com/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "uglify-js": "*",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec && npm run coverage",
+    "lint": "jshint src/*.js src/*.json"
+  }
+}
